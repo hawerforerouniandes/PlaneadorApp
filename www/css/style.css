@@ -6,3 +6,78 @@ html {
 body{
     background-image: url(../img/email-pattern.png);
 }
+
+
+header
+{
+    display: block;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+    background-color: #2E923D;
+    color: #fff;
+    padding: 4%;
+}
+header h2
+{
+    display: inline-block;
+    width: 85%;
+}
+
+header a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*MENU*/
+nav
+{
+    display: block;
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+    background-color: #2E923D;
+}
+nav ul
+{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul li
+{
+	display: inline-block;
+    width: 24%;
+    padding: 1%;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a i{
+	display:block;
+	margin:auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px !important;
+}
+nav ul li a span{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul .active
+{
+    background-color: #FE9901;
+}

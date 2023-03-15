@@ -24,11 +24,17 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light text-success">Iniciar sesión</h1>
+                    <h1 class="fw-light text-success">Crear una cuenta</h1>
                 </div>
             </div>
             <div class="row py-5">
                 <form action="home.html">
+                    <div class="mb-3">
+                        <input type="nombre" class="form-control" id="exampleInputNombre" aria-describedby="nombreHelp" placeholder="Nombre">
+                    </div>
+                    <div class="mb-3">
+                        <input type="apellido" class="form-control" id="exampleInputApellido" aria-describedby="apellidoHelp" placeholder="Apellido">
+                    </div>
                     <div class="mb-3">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     </div>
@@ -36,8 +42,12 @@
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                     </div>
                     <div class="d-grid gap-2">
-                        <button type="submit" class="btn btn-success">Ingresar</button>
-                        <a href="register.html" class="btn btn-secondary">¿Necesitas una cuenta?</a>
+                        <button type="submit" class="btn btn-success">Registrarse</button>
+                        <div class="row py-5 justify-content-between align-items-center">
+                            <small class="text-muted">Al registrarse, acepta los <a href="#">Términos de servicio</a> y la <a
+                                    href="#">Política de privacidad</a> </small>
+                        </div>
+                        <a href="login.html" class="btn btn-secondary">¿Ya tienes cuenta?</a>
                     </div>
                 </form>
             </div>
