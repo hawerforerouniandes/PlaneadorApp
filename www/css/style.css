@@ -3,11 +3,12 @@ html {
     height: 100%;
 }
 
+/*Textura*/
 body{
     background-image: url(../img/email-pattern.png);
 }
 
-
+/*Encabezado*/
 header
 {
     display: block;
@@ -81,3 +82,60 @@ nav ul .active
 {
     background-color: #FE9901;
 }
+
+/*tabs*/
+
+.home-card-header{
+    background-color: #2E923D;
+}
+
+.home-card-header a{
+    color: #fff;
+}
+.home-card-body .card{
+    background-color: rgba(48, 255, 0, 0.2);
+}
+.home-card-body .card-active{
+    background-color: rgba(0, 209, 255, 0.2);
+}
+
+.home-card-body h1{
+    color: red;
+}
+
+/*Horario*/
+.card-schedule{
+    background-color: #2E923D;
+    padding: 0% 0% 0% 3%;
+}
+
+/*Horario*/
+.event-section{
+    display: block;
+    color: black;
+    border-bottom: gray 2px solid;
+
+}
+
+.event-section .event-number{
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+
+    border-right: gray 2px solid;
+
+}
+.event-section .event-name{
+    width: 60%;
+    display: inline-block;
+
+}
+
+.event-section .event-name-active{
+    background-color: rgba(0, 209, 255, 0.2);
+    border: 1px solid rgb(2, 2, 136);
+    margin-left: 3%;
+
+}
+
+
