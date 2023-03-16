@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+    <title>Planeador App</title>
+
+</head>
+
+<body>
+    <main>
+       <header>
+            <a href="schedule.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+            <h2>Crear evento</h2>
+       </header>
+       <br /><br />
+       <div class="row py-5">
+        <form action="schedule.html">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputNombre" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputFecha" placeholder="Fecha">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputSalon"  placeholder="Salón">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputHora" placeholder="Horan de inicio">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputHora" placeholder="Hora de finalización">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputHora" placeholder="Periodo">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputHora" placeholder="Color">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="exampleInputHora" placeholder="Repetir">
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success">Guardar</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    </main>
+
+
+
+</body>
+
+<script src="js/planeador.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</html>

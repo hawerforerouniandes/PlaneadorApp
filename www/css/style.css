@@ -33,6 +33,12 @@ header a
     color: #fff;
 }
 
+header a i
+{
+    font-size: 25px !important;
+    width: 10%;
+}
+
 /*MENU*/
 nav
 {
@@ -137,5 +143,25 @@ nav ul .active
     margin-left: 3%;
 
 }
+
+.event-plus{
+    display: block;
+    text-align: right;
+    color: black !important;
+    font-size: 60px !important;
+}
+
+.event-plus a{
+    text-decoration: none;
+    color: #2E923D;
+}
+
+/*Profile*/
+.profile
+{
+    margin: auto;
+    width: 50%;
+}
+
 
 
